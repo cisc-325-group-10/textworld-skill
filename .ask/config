@@ -1,0 +1,32 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "amzn1.ask.skill.4f78381e-3f6c-47b4-9e6b-2a30681321bc",
+      "was_cloned": false,
+      "merge": {
+        "manifest": {
+          "apis": {
+            "custom": {
+              "endpoint": {
+                "uri": "arn:aws:lambda:us-east-1:558709501430:function:textworld-alexa-skill-dev-skill"
+              }
+            }
+          }
+        }
+      },
+      "resources": {
+        "manifest": {
+          "eTag": "25db7838ac59ff47d307e67f5955cf1f"
+        },
+        "interactionModel": {
+          "en-US": {
+            "eTag": "ba4513016605e189b35d1916b113167c"
+          },
+          "en-CA": {
+            "eTag": "fc14ac28c2178321dc617383242fe542"
+          }
+        }
+      }
+    }
+  }
+}
